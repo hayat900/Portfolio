@@ -10,6 +10,7 @@ import Contacts from '../Contacts/Contacts';
 import Home from '../Home/Home';
 import NavBar from '../NavBar/NavBar';
 import GoHome from '../GoHome/GoHome';
+import Modal from '../Modal/Modal';
 const SampleComponent=()=>{
     return(
         <div>I am the first one</div>
@@ -19,6 +20,7 @@ const App=()=>{
     return(
         <BrowserRouter>
         <div>
+            
             <NavBar />
             <GoHome />
             <Route path="/" exact component={Home}/>
