@@ -51,13 +51,13 @@ class NavBar extends React.Component {
                 <Link to='/about'  className={`menu-item ${aboutClass}`}>
                     About
                 </Link>
-                <Link to='/projects' onClick ={()=>this.closeMenu()} className={`menu-item ${projectsClass}`}>
+                <Link to='/projects'  className={`menu-item ${projectsClass}`}>
                     Projects
                 </Link>
-                <Link to='/skills' onClick ={()=>this.closeMenu()} className={`menu-item ${skillsClass}`}>
+                <Link to='/skills'  className={`menu-item ${skillsClass}`}>
                     Skills
                 </Link>
-                <Link to='/contact' onClick ={()=>this.closeMenu()} className={`menu-item ${contactClass}`}>
+                <Link to='/contact'  className={`menu-item ${contactClass}`}>
                     Contact
                 </Link>
             </Menu>

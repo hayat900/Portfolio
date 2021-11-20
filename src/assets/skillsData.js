@@ -15,13 +15,14 @@ export const skillList = [
         skillName: 'React',
         skillUrl: 'https://madhavbahl.tech/portfolio-assets/react.png',
     },
-    {
-        skillName: 'Redux',
-        skillUrl: 'https://madhavbahl.tech/portfolio-assets/redux.png',
-    },
+    
     {
         skillName: 'NodeJS',
         skillUrl: 'https://madhavbahl.tech/portfolio-assets/node.png',
+    },
+    {
+        skillName: 'C',
+        skillUrl: 'http://content.wisestep.com/wp-content/uploads/2014/10/c1.png',
     },
     {
         skillName: 'TypeScript',
@@ -32,8 +33,8 @@ export const skillList = [
         skillUrl: 'https://madhavbahl.tech/portfolio-assets/java.png',
     },
     {
-        skillName: 'C#',
-        skillUrl: 'https://madhavbahl.tech/portfolio-assets/cs.png',
+        skillName: 'C++',
+        skillUrl: 'https://webforpc.com/wp-content/uploads/2018/03/c-plus-plus-program-logo-image.png',
     },
     {
         skillName: 'MongoDB',
