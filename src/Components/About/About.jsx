@@ -18,42 +18,33 @@ const About = () => {
                     {/* Sub section 1 */}
                     <h3 className='about-sub-head'>Web Enthusiast</h3>
                     <p className='about-details'>
-                        Teaching is my passion, till now, I've taught thousands
-                        of students about Programming and Web Development. Check
-                        out{' '}
+                        Being a passionate web developer,love building new websites using new frameworks and technologies.I Have built over 10 websites.For a 
+                        detailed description,do checkout my {' '}
                         <a
                             className='about-link-element'
-                            href='http://theleanprogrammer.com/aam'
+                            href='https://github.com/hayat900'
                         >
-                            my free react courses!
+                            github page!
                         </a>
                     </p>
 
                     {/* Sub section 2 */}
-                    <h3 className='about-sub-head'>Student</h3>
+                    <h3 className='about-sub-head'>Coder</h3>
                     <p className='about-details'>
-                        I've been writing blogs from around 3 years now, and
-                        became top-blogger on medium twice. Check out{' '}
-                        <a
-                            className='about-link-element'
-                            href='https://madhavbahl.medium.com/'
-                        >
-                            my medium blogs today!
-                        </a>
+                        I love solving coding questions and have participated in several such competitions.
                     </p>
 
                     {/* Sub section 3 */}
                     <h3 className='about-sub-head'>Memer</h3>
                     <p className='about-details'>
-                        Being a passionate public speaker, I've given talks at
-                        more than 75 events till now! Want me to speak in your
-                        event?{' '}
+                        I am a memer who loves creating and sharing humorous memes.Do checkout my instagram page {' '} 
                         <a
                             className='about-link-element'
-                            href='mailto:info@dishadsouza2000@gmail.com'
+                            href='https://instagram.com/unscrambled_memes'
                         >
-                            Email me the details!
+                             Unscrambled_memes  
                         </a>
+                         {' '}for some rib-tickling memes.
                     </p>
                 </div>
 

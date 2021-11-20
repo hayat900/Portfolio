@@ -8,16 +8,17 @@ import linkedin from './../../assets/li.png';
 import instagram from './../../assets/in.png';
 import medium from './../../assets/me.png';
 import web from './../../assets/web.png';
+import aboutAnime from './../../assets/about_anime.gif';
 const Contacts=()=>{
     return(
         <div className="section-container">
             
             <Header
                 heading='Get in touch.'
-                details='Interested to collaborate? Feel free to drop me an email.'
+                details='Feel free to send me an email to contact me'
             />
            
-
+           
             {/* Form section */}
             <div className='contact-form-container'>
                 <form className='contact-form'>
@@ -44,7 +45,7 @@ const Contacts=()=>{
                     </button>
                 </form>
             </div>
-
+            
             <div className='social-icons-container'>
                 <a href='https://github.com/hayat900' className='social-icon'>
                     <img src={github} alt='social' />
@@ -55,21 +56,17 @@ const Contacts=()=>{
                 >
                     <img src={linkedin} alt='social' />
                 </a>
-                <a
-                    href='https://instagram.com/dsouzadisha'
-                    className='social-icon'
-                >
-                    <img src={instagram} alt='social' />
-                </a>
+               
                 {/* <a
                     href='https://medium.com/@madhavbahl'
                     className='social-icon'
                 >
                     <img src={medium} alt='social' />
                 </a> */}
-                <a href='https://madhavbahl.tech' className='social-icon'>
+                <a href='https://hayat900.github.io/portfolio' className='social-icon'>
                     <img src={web} alt='social' />
                 </a>
+               
             </div>
             <Footer
                 phrase='Read more '
