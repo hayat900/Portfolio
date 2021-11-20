@@ -38,7 +38,7 @@ const Projects = () => {
             <Footer
                 phrase='Check out '
                 link='my skills!'
-                toAdress='/skills'
+                linkaddress='/skills'
             />
         </div>
     );

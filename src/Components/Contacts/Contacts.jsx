@@ -73,7 +73,7 @@ const Contacts=()=>{
             </div>
             <Footer
                 phrase='Read more '
-                toAdress='/about'
+                linkaddress='/about'
                 link='about me.'
             />
 
