@@ -11,7 +11,7 @@ class Home extends Component {
     componentDidMount() {
         setTimeout(() => {
             this.setState({ showModal: true });
-        }, 2400);
+        }, 1000);
     }
 
     closeModal = () => {
@@ -21,10 +21,10 @@ class Home extends Component {
     render() {
         return (
             <div className='home-container'>
-                {/* {this.state.showModal && <Modal closeModal={this.closeModal}/>} */}
+                {/* {this.state.showModal && <Modal closeModal={this.closeModal} />} */}
                 <div className='header-text'>
                     <h1>Welcome to my portfolio!</h1>
-                    <p>This is Disha Mariyola Dsouza, coder and a Web Enthusiast</p>
+                    <p>This is Madhav, a full stack dev and a teacher</p>
                 </div>
                 <div className='head-btns'>
                     <Link to='/about' className='btn btn-white'>
